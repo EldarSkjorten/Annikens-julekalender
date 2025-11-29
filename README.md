@@ -4,6 +4,8 @@ Velkommen! Dette repoet inneholder en ferdig julekalender bygget som én enkel H
 
 Denne README er fullversjonen av bruksveiledningen. Øverst i `index.html` finner du en kortversjon.
 
+For best lesbarhet, åpne denne README-filen i et program som støtter Markdown - eller Preview i f.eks. VS Code-appen.
+
 ---
 
 ## 📁 Filstruktur
