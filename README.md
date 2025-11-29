@@ -44,6 +44,7 @@ Dette er en liste med 24 objekter, ett per dag:
   - JSON støtter ikke vanlige linjeskift — du **MÅ** bruke `\n` (ny linje) og `\n\n` (nytt avsnitt)
   - Eksempel: `"Dette er første linje.\nDette er andre linje.\n\nNytt avsnitt."`
   - For anførselstegn: `"Dette er eksempel på \"gåseøyne.\"`
+  - HTML-lenker fungerer ikke i denne versjonen, men er notert som en ide for neste år
 - `apple` og `spotify`:
   - Legg inn direktelenker
   - La stå tom (`""`) hvis du ikke ønsker å vise knappen
@@ -103,12 +104,12 @@ Merk:
 
 For å lage en ny variant:
 
-1. Lag et nytt repo på GitHub
+1. Lag et nytt repo på GitHub eller i GitHub for Desktop-appen
 2. Kopier inn:
    - `index.html`
    - mappen `data`
 3. Endre:
-   - Tittel endres 2 steder i HTML (`<title>` og `<h1>`)
+   - Tittel endres 2 steder i HTML (`<title>` helt øverst og `<h1>` øverst i `<body>`-delen)
    - Innhold i `data/days.json`
    - Info-tekst i `INFO_TEXT`
 4. Sett opp GitHub Pages for det nye repoet (se egen seksjon)
@@ -148,11 +149,12 @@ Endringene vil være live på nettsiden etter noen sekunder.
 3. Under *Build and Deployment* velger du:
    - Source: *Deploy from a branch*
    - Branch: `main` (root)
+   - Klikk Save
 4. GitHub gir deg en nettadresse, typisk:
    
    `https://brukernavn.github.io/julekalender`
 
-Kalenderen er nå live og delt klar.
+Kalenderen er nå live og delt klar. Hvis du er i test-modus, så husk å endre det før du deler lenken. (Se lenger opp.)
 
 ---
 
@@ -179,7 +181,8 @@ Kalenderen vil fortsatt virke (med tomme luker), men du bør rette opp filplasse
 Dette repoet er fullt funksjonelt. Men hvis du vil bygge videre:
 
 - Valgfritt: la kalenderen være åpen hele januar
-- Støtte for lenker i luketekstene
+- Støtte for lenker i luketekstene (husk å endre i denne README-filen)
+- Sjekk støtte for lenke i info-teksten (vet ikke om det støttes nå?)
 - Støtte for flere musikktjenester (YouTube Music, Tidal, osv.)
 - Egne illustrasjoner eller bilder for hver luke (ikke nødvendig, men mulig)
 - Flere designvarianter
