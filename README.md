@@ -179,6 +179,7 @@ Kalenderen vil fortsatt virke (med tomme luker), men du bør rette opp filplasse
 Dette repoet er fullt funksjonelt. Men hvis du vil bygge videre:
 
 - Valgfritt: la kalenderen være åpen hele januar
+- Støtte for lenker i luketekstene
 - Støtte for flere musikktjenester (YouTube Music, Tidal, osv.)
 - Egne illustrasjoner eller bilder for hver luke (ikke nødvendig, men mulig)
 - Flere designvarianter
